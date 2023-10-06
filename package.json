@@ -1,0 +1,12 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "this is your y",
+  "main": "main.js",
+  "scripts": {
+    "start" : "electron .",
+    "test": "test"
+  },
+  "author": "Farhad Omid",
+  "license": "SEE LICENSE IN license.txt"
+}
