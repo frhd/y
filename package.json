@@ -4,9 +4,12 @@
   "description": "this is your y",
   "main": "main.js",
   "scripts": {
-    "start" : "electron .",
+    "start": "electron .",
     "test": "test"
   },
   "author": "Farhad Omid",
-  "license": "SEE LICENSE IN license.txt"
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  }
 }

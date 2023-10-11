@@ -6,6 +6,12 @@
     <title>y</title>
   </head>
   <body>
+    <header>
+      <nav>
+          <a href="index.html">Home</a> |
+          <a href="todo.html">TODO List</a>
+      </nav>
+  </header>
     <h1>Hello Y</h1>
     <p>Y is a simple web application that allows you to create and share notes.</p>
     <p>It is a work in progress.</p>
@@ -31,6 +37,12 @@
         <li>Click on the "Delete Note" button to delete a note.</li>
       </ul>
     </p>
-  </body>
 
+    <input type="text" id="todoInput" placeholder="Enter your TODO">
+    <button id="addTodo">Add TODO</button>
+    <ul id="todoList"></ul>
+
+    <script src="renderer.js"></script>
+
+  </body>
   </head>
